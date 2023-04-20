@@ -1,0 +1,59 @@
+#toggle.darkmode{
+
+    background-color: #222;
+    box-shadow:  inset 08px 60px rgba(0,0,0,0.1);
+  }
+
+#toggle.darkmode .indicator{
+    left:35px;
+    background:linear-gradient(to bottom, #333, #222);
+    transform: scale(0.9);
+  }
+
+body.darkmode > * 
+  {
+    background-color: #333;
+    color: #bbb;
+  }
+
+body.darkmode > * >* >* 
+  {
+    background-color: #333;
+    color: #bbb;
+  }
+
+.app .darkmode{
+    color: #bbb;
+  }
+
+ul.darkmode > * >*{
+    background-color: #252526;;
+  }
+
+.total.darkmode, .history-item-container.darkmode
+  {
+    background-color: transparent;
+  }
+.total.darkmode > * > * >* {
+    background-color: #252526;;
+  }
+
+.aside.darkmode{
+    background-color: #252526;
+    fill: white;
+  }
+
+.aside.darkmode >*
+  {
+    background-color: transparent;
+  }
+
+main.darkmode{
+    background-color: #3A3A3B;
+}
+
+main.darkmode >*
+{
+  background-color: transparent;
+}
+

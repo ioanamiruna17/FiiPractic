@@ -1,0 +1,43 @@
+.fa-solid
+{
+    color:black;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-piggy-bank{
+    background-color: rgba(206, 243, 45, 0.6);
+}
+
+.fa-pen-to-square, .fa-trash
+{
+    background-color: rgb(223, 221, 221,0.45);
+    cursor: pointer;
+}
+
+.fa-arrow-trend-up{
+    background-color:  #219653;
+}
+
+.fa-arrow-trend-down{
+    background-color: #e6143e;
+}
+
+.fa-solid.fa-plus.fa-2xs
+{
+    background-color: rgb(223, 221, 221,0.3);
+    cursor: pointer;
+    padding: 0;
+    border-radius: 15px;
+}
+
+.fa-solid.fa-xmark.fa-2xs
+{
+    background-color: rgb(223, 221, 221,0.3);
+    cursor: pointer;
+    padding: 0;
+    border-radius: 15px;
+    border:none;
+}
